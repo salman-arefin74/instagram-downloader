@@ -1,6 +1,6 @@
 import './App.css';
 import { Helmet } from 'react-helmet';
-
+import ImageDownloader from './ImageDownloader'
 
 function App() {
     return (
@@ -9,6 +9,7 @@ function App() {
                 <title>Instagram Downloader</title>
             </Helmet>
             
+            <ImageDownloader></ImageDownloader>
         </div>
     );
 }
